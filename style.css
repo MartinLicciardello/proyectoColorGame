@@ -1,0 +1,44 @@
+.square{
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 10px;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto; 
+    overflow:hidden;
+    transition: width 2s, height 2s, transform 2s;
+}
+.container:hover{transform: rotate(180deg); }
+
+ 
+  
+body{ background-image: url( https://lavozdelmuro.net/wp-content/uploads/2015/02/ilusiones_opticas_6-1.gif);}
+
+h1{color: white;
+text-align: center;
+font-family: 'Permanent Marker', cursive;
+}
+
+#message{ color:black;}
+
+#stripe{ background-color: white;
+height: 30px;
+text-align: center;}
+
+.selected{background-color: violet;}
+
+button{
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Orbitron', sans-serif;
+    background-color: violet;
+    cursor: pointer;
+    width:157px;
+    height:30px;
+}
+
+ :focus{ outline: none;}
+
